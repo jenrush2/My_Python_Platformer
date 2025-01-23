@@ -7,3 +7,9 @@ from os.path import isfile, join
 pygame.init()
 
 pygame.display.set_caption("Platformer")
+
+BG_COLOR = (255, 255, 255)
+WIDTH, HEIGHT, = 1000, 800
+FPS = 60
+PLAYER_VEL = 5
+
