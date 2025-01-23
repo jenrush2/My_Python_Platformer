@@ -13,3 +13,11 @@ WIDTH, HEIGHT, = 1000, 800
 FPS = 60
 PLAYER_VEL = 5
 
+window = pygame.display.set_mode((WIDTH, HEIGHT))
+
+def main(window):
+    pass
+
+#only call the main function and call the game if we run the file directly
+if __name__ == "__main__":
+    main(window)
